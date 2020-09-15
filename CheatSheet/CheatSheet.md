@@ -10,7 +10,7 @@
 
 [Microsoft Azure Algorithm Flowchart](https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-cheat-sheet)
 
-<img src="CheatSheet.assets/MS-Azure-ML-algorithm-cheat-sheet.svg" alt="MS-Azure-ML-algorithm-cheat-sheet" width="80%" />
+<img src="CheatSheet.assets/MS-Azure-ML-algorithm-cheat-sheet.png" alt="MS-Azure-ML-algorithm-cheat-sheet" width="80%" />
 
 ## Algorithm Summary
 
