@@ -4,9 +4,7 @@
 
 [Which machine learning algorithm should I use?](https://blogs.sas.com/content/subconsciousmusings/2017/04/12/machine-learning-algorithm-use/)
 
-<img src="CheatSheet.assets/ML-Algo-Cheat-Sheet.png" alt="ML-Algo-Cheat-Sheet" width="70%" />
-
-
+<img src="./CheatSheet.assets/ML-Algo-Cheat-Sheet.png" alt="ML-Algo-Cheat-Sheet" width="70%" />
 
 [Microsoft Azure Algorithm Flowchart](https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-cheat-sheet)
 
