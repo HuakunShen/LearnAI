@@ -23,6 +23,8 @@ An optimizer is used to optimize model parameters.
 
 ## Scheduler
 
+[Docs](https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate)
+
 > `torch.optim.lr_scheduler` provides several methods to adjust the learning rate based on the number of epochs.
 
 
