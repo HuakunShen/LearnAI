@@ -1,8 +1,8 @@
 # Neural Network
 
-[Cheat Sheet](./CheatSheet.md)
+[Cheat Sheet](../../CheatSheet/CheatSheet.md)
 
-
+[PyTorch Official Cheat Sheet](https://pytorch.org/tutorials/beginner/ptcheat.html)
 
 ## Reference
 
