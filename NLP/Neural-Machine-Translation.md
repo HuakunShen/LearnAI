@@ -4,6 +4,47 @@ title: NMT (Neural Machine Translation)
 
 > Neural Machine Translation (NMT) is a way to do Machine Translation with a single end-to-end neural network.
 
+- Drop noisy channel
+- No (explicit) alignments - end-to-end training
+- Outperforms "SMT" by a large margin
+
+## Teacher Forcing
+
+- Remove feed-forward recurrence from the previous output to the hidden units, and replace with ground truth for faster training.
+- Only used in training
+
+## Attention
+
+Decoder consider input (encoder hidden states) when making decisions. Attention scores determines which area to focus/attend.
+
+- One decoder hidden state and all encoder hidden states are passed into the attention score funciton
+
+Think of decoder hidden state at time t, $\tilde{h_t}$ as **query**.All encoder hidden states, $h_{1:S}$ as values.
+
+### Advantage
+
+- Performance
+- Solves bottleneck
+  - Sllows decoder to look at the source sentence directly
+- Helps with the long-horizon (vanishing gradient) problem by providing shortcut to distant states
+
+## Transformer
+
+- Replace RNN with attention
+- Allow parallel computation
+
+### Q,K,V
+
+Decoder has values, the encoder has keys and queries (memory).
+
+$QK^T$ is a similarity measure between Query and Key.
+
+### Positional Encoding
+
+Add positional info of an input token in the sequence into the input embedding vectors.
+
+
+
 ## Advantages compared to SMT
 
 - Better **performance**
@@ -101,7 +142,7 @@ BLEU compares machine-written translation to one or several human-written transl
   - Overlap words
 - Penalty for too-short system translations
   BLEU is imperfect
-- Many vali ways to translate a sentence
+- Many valid ways to translate a sentence
 - good translation can get poor BLEU score
 
 ## Attention
